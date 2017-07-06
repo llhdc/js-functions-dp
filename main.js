@@ -11,15 +11,27 @@ function max(num1, num2){
     }
 }
 
-max();
+max(4,6);
+// output '6'
+
 
 // 2.
 // Define a function maxOfThree() that takes three numbers as arguments and returns the largest of them.
 // Then, write and example of using the function.
 
-function maxOfThree(){
+function maxOfThree(num1, num2, num3){
     // Your answer here
+    if ((num1 > num2) && (num1 > num3)) {
+      return num1;
+    }else if ((num2 > num1) && (num2 > num3)) {
+      return num2;
+    }else {
+      return num3;
+    }
 }
+
+maxOfThree(8,23,4)
+// output '23'
 
 
 // 3.
