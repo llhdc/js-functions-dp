@@ -80,7 +80,9 @@ avg (3,3,9)
 // Write a function called `getLength` that takes one parameter (a string) and returns the length
 // Then, write and example of using the function.
 
-
+function getLength('string') {
+  return string.length;
+}
 
 // 7.
 // Write a function called `greaterThan` that takes two parameters
