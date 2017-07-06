@@ -58,7 +58,12 @@ isVowel('t')
 // Write a function called `sum` that takes two parameters and returns the sum of those 2 numbers.
 // Then, write and example of using the function.
 
+function sum(num1, num2) {
+  return num1 + num2;
+}
 
+sum(3,4);
+// output '7'
 
 // 5.
 // Write a function named `avg` that takes 3 parameters and returns the average of those 3 numbers.
