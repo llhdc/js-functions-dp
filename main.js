@@ -80,9 +80,12 @@ avg (3,3,9)
 // Write a function called `getLength` that takes one parameter (a string) and returns the length
 // Then, write and example of using the function.
 
-function getLength('string') {
+function getLength(string) {
   return string.length;
 }
+
+getLength('JS is awesome')
+//output '13'
 
 // 7.
 // Write a function called `greaterThan` that takes two parameters
@@ -90,7 +93,16 @@ function getLength('string') {
 // Otherwise the function should return `false`.
 // Then, write and example of using the function.
 
+function greaterThan(num1, num2) {
+  if (num2 > num1) {
+    return num2;
+  }else {
+    return false;
+  }
+}
 
+greaterThan(2.34523, 2.34534)
+// output '2.34534'
 
 // 8.
 // Write a function called `greet` that takes a
@@ -99,7 +111,12 @@ function getLength('string') {
 // is the parameter that was passed in.
 // Then, write and example of using the function.
 
+function greet(Name) {
+  return 'Hello, ' + Name + '!';
+}
 
+greet('Leonard')
+// Output "Hello, Leonard!"
 
 // 9.
 // Write a function called `madlib` that takes 4 or more parameters (words).
