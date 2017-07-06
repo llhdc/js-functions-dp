@@ -40,8 +40,19 @@ maxOfThree(8,23,4)
 
 function isVowel(char){
     // Your answer here
+    if ((char === 'a') ||
+        (char === 'e') ||
+        (char === 'i') ||
+        (char === 'o') ||
+        (char === 'u')) {
+          return true;
+        }else {
+          return false;
+        }
 }
 
+isVowel('t')
+// output 'false'
 
 // 4.
 // Write a function called `sum` that takes two parameters and returns the sum of those 2 numbers.
