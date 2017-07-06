@@ -116,7 +116,7 @@ function greet(Name) {
 }
 
 greet('Leonard')
-// Output "Hello, Leonard!"
+// output "Hello, Leonard!"
 
 // 9.
 // Write a function called `madlib` that takes 4 or more parameters (words).
@@ -126,3 +126,10 @@ greet('Leonard')
 // words: "quick", "fox", "fence"
 // sentence: "quick brown fox jumps over the fence"
 // Then, write and example of using the function.
+
+function madlib(adj, adv, verb, obj) {
+  return 'The ' + adj + ' man ' + adv + ' ' + verb + ' his ' + obj + ' every evening after tea.';
+}
+
+madlib('churlish', 'expertly', 'spins', 'cat')
+// output "The churlish man expertly spins his cat every evening after tea."
