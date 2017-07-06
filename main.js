@@ -4,14 +4,14 @@
 
 function max(num1, num2){
     // Your answer here
-    if num1 > num2 {
+    if (num1 > num2) {
       return num1;
     }else {
       return num2;
     }
 }
 
-max(); 
+max();
 
 // 2.
 // Define a function maxOfThree() that takes three numbers as arguments and returns the largest of them.
